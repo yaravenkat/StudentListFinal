@@ -5,7 +5,7 @@
 
 	<groupId>fi.haagahelia.course</groupId>
 	<artifactId>crudboot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>crudboot</name>
@@ -65,10 +65,12 @@
 	        <artifactId>spring-boot-devtools</artifactId>
 	    </dependency>
 		
-		<dependency>
-		    <groupId>org.thymeleaf.extras</groupId>
-		    <artifactId>thymeleaf-extras-springsecurity6</artifactId>
-		</dependency>					        
+	<dependency>
+    <groupId>org.thymeleaf.extras</groupId>
+    <artifactId>thymeleaf-extras-java8time</artifactId>
+    <version>3.0.4.RELEASE</version>
+</dependency>
+					        
 	</dependencies>
 	
 	<build>
